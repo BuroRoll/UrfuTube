@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "urfutube"
+version = "0.1.0"
+description = ""
+authors = ["danilkonkov <buroroll@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.21.1"
+fastapi = "^0.95.0"
+jsonrpcserver = "^5.0.9"
+boto3 = "^1.26.109"
+python-multipart = "^0.0.6"
+loguru = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
